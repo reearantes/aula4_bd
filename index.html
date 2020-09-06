@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 04</title>
+</head>
+<body>
+    <h2>Desenvolvimento de Sistemas</h2>
+    <!--Formulario com nome e senha, tag input, 
+        entrada de dados do usuario
+        possui diversos atributos-->
+    <form name="login" action="" method="POST">
+        <label>Nome:</label> <br/>  
+        <input type="text" maxlength="15"name="user" required/><br/> 
+        <label>Senha:</label><br/>
+        <input type="password" maxlength="8" name="senha" required 
+        /><br/><br/>    
+
+        <label>Email</label><br/>
+        <input type="email" name="email" required/> <br/> 
+        
+        <label>Idade:</label> <br/>
+        <input type="number" name="idade"/> <br/> <br/>
+        <label>Cor:</label>
+        <input type="color" name="cor"/>  <br/> <br/>
+
+        <input type="submit" value="Gravar"/> 
+        <input type="reset" value="Limpar"/>
+     
+    <!--Submit: submeter dados e retornar
+    required: torna o campo obrigatorio
+    name: facil de localizar ao consultar
+    GET: utilizado apenas para receber informação
+    POST: enviar informacoes, especifico para senhas 
+    e formularios
+    Input de e-mail: quando inserido o required ele valida
+    se existe um @ inserido no campo-->
+    </form>
+</body>
+</html> 
